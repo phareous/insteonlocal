@@ -370,7 +370,7 @@ class Hub(object):
 
         response = command_cache[device_id][key]
 
-        if response['ttl'] > int(time()):
+        if response['ttl'] < int(time()):
             return response['response']
         else:
             return False
