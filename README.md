@@ -17,6 +17,8 @@ Include the log file, the list of device models and ID's, and your hub model
 
 ## Changes
 
+0.54 2022-06-20 Changes to package and requirements to remove built-in package names that could be overwritten by hostile actor
+
 0.53 2017-06-08 Fix typo in error logging
 
 0.52 2017-06-01 Set path for cache files in constructor
